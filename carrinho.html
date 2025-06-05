@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keystore</title>
+    <link rel="stylesheet" href="./assets/css/estilo.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h6>
+        <img
+          class="logo"
+          src="assets\images\ChatGPT Image 4 de jun. de 2025, 10_34_44.png"
+        />
+      </h6>
+      <nav>
+        <ul class="navbar">
+          <li><a href="index.html">Destaques</a></li>
+          <li><a href="FPS.html">FPS</a></li>
+          <li><a href="RPG.html">RPG</a></li>
+          <li><a href="entrar.html">Login </a></li>
+          <li>
+            <a href="carrinho.html"
+              ><img src="assets/images/shopping-cart.png" alt="" width="20px"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="carrinho-container"> 
+      <h2>Seu Carrinho</h2> 
+      <div id="lista-carrinho"></div> 
+
+      <div class="pagamento"> 
+        <h3>Forma de Pagamento</h3>
+        <form>
+          <label> 
+            ><input type="radio" name="pagamento" value="pix" checked />
+            PIX</label
+          ><br />
+          <label
+            ><input type="radio" name="pagamento" value="boleto" />
+            Boleto</label
+          ><br />
+          <label
+            ><input type="radio" name="pagamento" value="cartao" /> Cartão de
+            Crédito</label
+          ><br />
+        </form>
+        <button onclick="finalizarCompra()">Finalizar Compra</button> 
+    </main>
+
+    <footer class="footer a">
+      <p>Keyquest Games &copy; 2025</p>
+      <ul>
+        <p>
+          A seguinte loja virtual foi criada como um projeto de programação para
+          o curso de Engenharia de Software do Centro Universitário Campo Real
+          (CUCR). O objetivo é demonstrar habilidades em desenvolvimento web,
+          incluindo HTML, CSS e JavaScript. Não há qualuqer fim comercial ou
+          venda de produtos reais. Todos os produtos e imagens são de
+          propriedade de seus respectivos donos e foram utilizados apenas para
+          fins educacionais. A loja virtual é uma simulação e não representa uma
+          plataforma de comércio eletrônico real. Agradecemos a compreensão e
+          esperamos que este projeto sirva como um exemplo de aplicação prática
+          das habilidades adquiridas no curso.
+        </p>
+      </ul>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
