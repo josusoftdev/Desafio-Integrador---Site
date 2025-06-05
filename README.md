@@ -1,6 +1,7 @@
 # Desafio Integrador
 
-LINK: https://ubiquitous-flan-dfa66c.netlify.app/
+## LINKs: https://ubiquitous-flan-dfa66c.netlify.app/
+## https://www.youtube.com/watch?v=6keAO_M_hrM&ab_channel=Josu%C3%A9Olbertz
 Este projeto é uma aplicação web desenvolvida como parte do desafio integrador do 3° Periodo. Ele simula uma loja de jogos com páginas dedicadas a diferentes gêneros, funcionalidades de simulção de login e carrinho de compras.
 
 ## 🚀 Funcionalidades
